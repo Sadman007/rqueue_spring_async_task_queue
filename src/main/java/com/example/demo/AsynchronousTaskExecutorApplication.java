@@ -9,6 +9,8 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @EnableRedisRepositories
 @EnableWebMvc
 
+// This class might be named as "DemoApplication"
+
 public class AsynchronousTaskExecutorApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(AsynchronousTaskExecutorApplication.class, args);
